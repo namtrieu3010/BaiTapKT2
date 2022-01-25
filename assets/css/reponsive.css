@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1024px) and (min-width: 720px){
+    #container{
+        width: 100%;
+        height: 100%;
+        overflow-wrap: normal;
+    }
+    .container__header{
+        justify-content: center;
+    }
+    .info__items--left,.info__items--mid,.phone{
+        display: none;
+    }
+    .nav__mid{
+    display: none;
+    }
+    .container__body{
+    text-align: center;
+    }
+    .footer{
+        flex-direction: column;
+        border-left: 3px dashed var(--border-color);
+        border-right: 3px dashed var(--border-color);
+    }
+    .footer__mid{
+        border: unset;
+    }
+}
